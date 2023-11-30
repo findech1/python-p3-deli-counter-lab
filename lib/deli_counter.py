@@ -13,5 +13,5 @@ def now_serving(katz_deli):
     if len(katz_deli) == 0:
         print("There is nobody waiting to be served!")
         return;
-    user = katz_deli.pop(0)
+    user = katz_deli.pop(0) #pops customer at index 0
     print(f'Currently serving {user}.') 
